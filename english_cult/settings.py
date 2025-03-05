@@ -84,9 +84,6 @@ WSGI_APPLICATION = 'english_cult.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-DATABASES = {
-    'default': dj_database_url.config(default='postgres://USER:PASS@HOST:PORT/DBNAME')
-}
 
 DATABASES = {
     'default': {
