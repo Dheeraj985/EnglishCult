@@ -4,6 +4,9 @@ from .models import Booking
 def home(request):
     return render(request, 'booking/homepage.html')
 
+def about(request):
+    return render(request,'booking/about.html')
+
 #view for  the new form page
 def book_demo(request):
     if request.method == 'POST':
